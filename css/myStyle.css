@@ -1,6 +1,10 @@
 .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 5px;
 }
 .hamburger-btn {
@@ -14,9 +18,16 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; 
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center; 
+      -ms-flex-pack: center; 
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .intro-message {
   font-style: normal;
@@ -38,7 +49,11 @@ main {
 }
 .social_media_icons {
   margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 150px;
 } 
