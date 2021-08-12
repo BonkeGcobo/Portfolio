@@ -9,7 +9,7 @@
 }
 
 main {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .headline {
@@ -28,12 +28,12 @@ main {
   color: #172b4d;
   font-size: 30px;
 }
-.intro_1{
+
+.intro_1 {
   line-height: 0;
 }
 
 .intro_2 {
-  margin-top: 0px;
   line-height: 1;
 }
 
@@ -53,4 +53,4 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 150px;
-} 
+}
