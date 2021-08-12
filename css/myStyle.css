@@ -17,7 +17,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  display: flex; 
+  display: flex;
   justify-content: center;
   flex-direction: column;
 }
