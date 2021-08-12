@@ -10,7 +10,7 @@
 }
 
 main {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
 }
 
 .headline {
@@ -54,4 +54,9 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 150px;
+}
+
+.social_media_icons li {
+  list-style: none;
+  margin-left: -38px;
 }
