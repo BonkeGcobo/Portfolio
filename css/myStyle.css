@@ -7,4 +7,11 @@
 .hamburger-btn{
         color:blue;        
 }
+
+.headline {
+    background-image: url("../header-shapes-mobile.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    border:solid;
+}
     
