@@ -3,15 +3,12 @@
   justify-content: space-between;
   margin-top: 5px;
 }
-
 .hamburger-btn {
   color: blue;        
 }
-
 main {
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
-
 .headline {
   background-image: url("../header-shapes-mobile.png");
   background-repeat: no-repeat;
@@ -21,7 +18,6 @@ main {
   justify-content: center; 
   flex-direction: column;
 }
-
 .intro-message {
   font-family: Poppins;
   font-style: normal;
@@ -33,7 +29,6 @@ main {
   margin-top: 0px;
   line-height: 0;
 }
-
 .headline-text {
   color: #344563;
   font-size: 20px;
