@@ -1,15 +1,15 @@
 .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 5px;
 }
 
 .hamburger-btn{
         color:blue;        
 }
-.content{
-    display: flex;
-    flex-direction: column;
+
+main{
+    font-family: "Poppins", sans-serif;;
 }
 
 .headline {
@@ -30,7 +30,11 @@
   font-size: 30px;
 }
 
-.headline-text{
-    color:#344563;
-    font-size: 20px;
+.headline-text {
+  color:#344563;
+  font-size: 20px;
+}
+.connect_link a{
+  text-decoration: none;
+  color: #18A0FB;
 }
