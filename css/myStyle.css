@@ -22,10 +22,15 @@
     flex-direction: column;
 }
 
-.intro-message{
+.intro-message {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   color: #172B4D;
   font-size: 30px;
+}
+
+.headline-text{
+    color:#344563;
+    font-size: 20px;
 }
