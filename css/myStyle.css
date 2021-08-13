@@ -10,7 +10,7 @@
 }
 
 main {
-  font-family:'Poppins';
+  font-family: 'Poppins';
 }
 
 .headline {
@@ -28,7 +28,6 @@ main {
   font-weight: bold;
   color: #172b4d;
   font-size: 30px;
-  font-weight: 700;
 }
 
 .intro_1 {
