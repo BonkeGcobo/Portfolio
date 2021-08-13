@@ -60,3 +60,13 @@ main {
   list-style: none;
   margin-left: -38px;
 }
+
+.works {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.Project {
+  border: solid;
+}
