@@ -115,7 +115,7 @@ main {
 }
 
 .card_text {
-  color:#344563;  
+  color: #344563;
 }
 
 .tech ul {
@@ -148,7 +148,7 @@ main {
   border: 1px solid #396dfa;
   background-color: white;
   border-radius: 8px;
-  font-family: Poppins;
+  font-family: 'Poppins' , sans-serif;
   color: #396dfa;
   font-weight: 500;
 }
@@ -158,13 +158,8 @@ button:hover {
   color: white;
 }
 
-.Skills {
-  display: grid;
-  grid-template-columns: 100%;
-}
-
 .Langs {
-  display: flex ;
+  display: flex;
   list-style: none;
   flex-direction: column;
   margin-left: -5px;
@@ -205,8 +200,4 @@ button:hover {
 
 .head_skills li {
   float: left;
-}
-
-.Langs {
-  gap: 8px;
 }
