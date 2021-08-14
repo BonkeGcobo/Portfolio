@@ -63,10 +63,81 @@ main {
 
 .works {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100%;
   gap: 15px;
+  background-color:#f7f7f9;
 }
 
-.Project {
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   border: solid;
+  border-radius: 16px;
+  height: 100%;
+  width: 70vw;
+  margin-top: 35px;
+  gap: 5px;
+  background-color: white;
+}
+
+.img {
+  align-self:center;
+  margin-top: 5px;
+}
+.card h1 {
+  font-style: normal;
+  font-weight: bold;
+  color: #172b4d;
+  font-size: 30px;
+}
+
+.heading {
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  /*margin-left:  20px;*/ 
+}
+
+.list ul {
+  display: flex;
+  gap: 25px;
+  color: #c1c7d0;
+}
+
+.list p {
+  color: #344563;
+}
+
+.card_text {
+  color:#344563;
+  /*margin-left: 8px;*/   
+}
+
+.tech ul {
+  display: flex;
+  list-style: none;
+ /* margin-left: 15px;*/
+  gap: 50px;
+  width: 150px;
+}
+
+.tech li {
+  margin-left: -38px;
+  background-color: #ebebff;
+}
+
+.tech a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.card_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 25px;
 }
