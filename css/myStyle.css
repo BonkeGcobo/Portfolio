@@ -144,7 +144,7 @@ main {
   margin-left: 25px;
 }
 
-.button button{
+.button button {
   width: 124px;
   height: 48px;
   border: 1px solid #396dfa;
@@ -160,19 +160,19 @@ button:hover {
   color: white;
 }
 
-.Skills{
+.Skills {
   display: grid;
   grid-template-columns: 100%;
 }
 
-.Langs{
+.Langs {
   display: flex ;
   list-style: none;
   flex-direction: column;
   margin-left: -5px;
 }
 
-.lang{
+.lang {
   display: flex;
   width: 250px;
   margin-left: -30px;
@@ -182,14 +182,14 @@ button:hover {
   border-radius: 8px;
 }
 
-.About-Myself{
+.About-Myself {
   display: flex;
   margin-top: 35px;
   flex-direction: column;
   justify-self:flex-start;
 }
 
-.Skills{
+.Skills {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -197,7 +197,7 @@ button:hover {
   gap: 15px;
 }
 
-.head_skills{
+.head_skills {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -205,11 +205,10 @@ button:hover {
   width: 200px;
 }
 
-.head_skills li{
+.head_skills li {
   float: left;
 }
 
-.Langs{
+.Langs {
   gap: 8px;
-
 }
