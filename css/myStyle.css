@@ -141,3 +141,14 @@ main {
   justify-content: flex-start;
   margin-left: 25px;
 }
+
+.button button{
+  width: 124px;
+  height: 48px;
+  border: 1px solid #396dfa;
+  background-color: white;
+  border-radius: 8px;
+  font-family: Poppins;
+  color: #396dfa;
+  font-weight: 500;
+}
