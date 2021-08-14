@@ -152,3 +152,7 @@ main {
   color: #396dfa;
   font-weight: 500;
 }
+button:hover{
+  background-color: #369df2;
+  color: white;
+}
