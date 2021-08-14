@@ -64,6 +64,7 @@ main {
 .works {
   display: grid;
   grid-template-columns: 100%;
+  justify-content: center;
   gap: 50px;
   background-color:#f7f7f9;
 }
@@ -71,19 +72,20 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-radius: 16px;
   height: 100%;
-  width: 70vw;
+  width: 80%;
   margin-top: 35px;
+  margin-left: 11%;
   gap: 5px;
   background-color: white;
-  margin-left: 50px;
 }
 
 .img {
-  align-self:center;
   margin-top: 5px;
+  width: 150px;
 }
 .card h1 {
   font-style: normal;
@@ -152,7 +154,62 @@ main {
   color: #396dfa;
   font-weight: 500;
 }
-button:hover{
+
+button:hover {
   background-color: #369df2;
   color: white;
+}
+
+.Skills{
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.Langs{
+  display: flex ;
+  list-style: none;
+  flex-direction: column;
+  margin-left: -5px;
+}
+
+.lang{
+  display: flex;
+  width: 250px;
+  margin-left: -30px;
+  gap: 25px;
+  border: 1px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+}
+
+.About-Myself{
+  display: flex;
+  margin-top: 35px;
+  flex-direction: column;
+  justify-self:flex-start;
+}
+
+.Skills{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.head_skills{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+  width: 200px;
+}
+
+.head_skills li{
+  float: left;
+}
+
+.Langs{
+  gap: 8px;
+
 }
