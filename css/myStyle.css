@@ -13,11 +13,19 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
+  color: #172b4d;
 }
 
 .HEAD {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+.canop{
+  list-style: none;
 }
 
 .headline {
@@ -65,4 +73,71 @@ body {
 .social_media_icons li {
   list-style: none;
   margin-left: -38px;
+}
+
+.Works {
+  display: grid;
+  grid-template-rows: repeat(4,minmax(200px,auto));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 82px;
+  background-color: white;
+  padding-top: 12px;
+  padding-left: 3px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.proj_button:hover{
+  background-color: #6070FF;
+  color: white;
+}
+
+.exp .sub_tabs {
+  display: flex;
+  gap: 18px;
+  margin-left: -35px;
+  
+}
+
+.card_title {
+  
+}
+
+.exp {
+
+}
+
+.img {
+  align-self: center;
+}
+.myLans {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  margin-left: -35px;
+}
+
+.lan_tag {
+  text-decoration: none;
+  background-color: #ebebff;
+  color: #717fff;
+}
+
+.proj_button{
+  width: 100px;
+  height: 40px;
+  border: 1px solid #6a91f5;
+  background-color: white;
+  border-radius: 5px;
+  color: #6a91f5;
+}
+
+.proj_button:disabled{
+  background-color: #FFFFFF;
+  color: #5E6C84;
 }
