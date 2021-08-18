@@ -11,8 +11,13 @@
   color: blue;
 }
 
-main {
+body {
   font-family: 'Poppins', sans-serif;
+}
+
+.HEAD {
+  display: flex;
+  flex-direction: column;
 }
 
 .headline {
@@ -29,7 +34,6 @@ main {
   font-style: normal;
   font-weight: bold;
   color: #172b4d;
-  font-size: 30px;
 }
 
 .intro_1 {
