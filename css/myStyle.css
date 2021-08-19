@@ -150,8 +150,7 @@ body {
   padding-top: 20px;
   background-color: white;
   display: grid;
-  border: solid;
-  grid-template-rows: repeat(4, minmax(200px,auto));
+  grid-template-rows: repeat(4, minmax(auto));
 }
 
 .myself_title{
@@ -160,5 +159,53 @@ body {
 
 .myself-text{
   margin-left: 12px;
-  margin-top: -100px;
+}
+
+.about_myself_link, .about_myself_media{
+  margin-left: 12px;
+}
+
+.skill_section {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.skill_header{
+  display: flex;
+  justify-content: baseline;
+  gap: 150px;
+}
+.lan{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 12px;
+  gap: 8px;
+  background-color: #F7F7F9;
+  border-radius: 5px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.langs{
+  margin-right: 50px;
+  margin-left: -30px;
+}
+
+.sec_header{
+  margin-left: 12px;
+}
+
+.frame_header{
+  gap: 130px;
+}
+
+hr{
+  margin-left: -23px;
+  margin-right: 20px;
+}
+
+.my_skills{
+  gap: 220px;
 }
