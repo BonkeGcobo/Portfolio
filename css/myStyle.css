@@ -11,8 +11,25 @@
   color: blue;
 }
 
-main {
+body {
   font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
+  color: #172b4d;
+}
+
+.hori_line {
+  list-style: none;
+}
+
+.HEAD {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+.canop {
+  list-style: none;
 }
 
 .headline {
@@ -29,7 +46,6 @@ main {
   font-style: normal;
   font-weight: bold;
   color: #172b4d;
-  font-size: 30px;
 }
 
 .intro_1 {
@@ -61,4 +77,134 @@ main {
 .social_media_icons li {
   list-style: none;
   margin-left: -38px;
+}
+
+.Works {
+  display: grid;
+  grid-template-rows: repeat(4, minmax(200px, auto));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 82px;
+  background-color: white;
+  padding-top: 12px;
+  padding-left: 3px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.exp .sub_tabs {
+  display: flex;
+  gap: 18px;
+  margin-left: -35px;
+}
+
+.img {
+  align-self: center;
+}
+
+.myLans {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  margin-left: -35px;
+}
+
+.lan_tag {
+  text-decoration: none;
+  background-color: #ebebff;
+  color: #717fff;
+}
+
+.proj_button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #6a91f5;
+  background-color: white;
+  border-radius: 5px;
+  color: #6a91f5;
+}
+
+.proj_button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.proj_button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+}
+
+.about_two {
+  line-height: 0;
+}
+
+.about-myself {
+  margin-top: 150px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.myself_title {
+  margin-left: 12px;
+}
+
+.myself-text {
+  margin-left: 12px;
+}
+
+.about_myself_link {
+  margin-left: 12px;
+}
+
+.about_myself_media {
+  margin-left: 12px;
+}
+
+.skill_section {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.skill_header {
+  display: flex;
+  gap: 150px;
+}
+
+.lan {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 12px;
+  gap: 8px;
+  background-color: #f7f7f9;
+  border-radius: 5px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.langs {
+  margin-right: 50px;
+  margin-left: -30px;
+}
+
+.sec_header {
+  margin-left: 12px;
+}
+
+.frame_header {
+  gap: 130px;
+}
+
+hr {
+  margin-left: -23px;
+  margin-right: 20px;
+}
+
+.my_skills {
+  gap: 220px;
 }
