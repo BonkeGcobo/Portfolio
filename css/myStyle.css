@@ -17,6 +17,10 @@ body {
   color: #172b4d;
 }
 
+.hori_line {
+  list-style: none;
+}
+
 .HEAD {
   display: flex;
   flex-direction: column;
@@ -24,7 +28,7 @@ body {
   width: 100%;
 }
 
-.canop{
+.canop {
   list-style: none;
 }
 
@@ -77,7 +81,7 @@ body {
 
 .Works {
   display: grid;
-  grid-template-rows: repeat(4,minmax(200px,auto));
+  grid-template-rows: repeat(4, minmax(200px, auto));
 }
 
 .card {
@@ -92,29 +96,16 @@ body {
   border-radius: 10px;
 }
 
-.proj_button:hover{
-  background-color: #6070FF;
-  color: white;
-}
-
 .exp .sub_tabs {
   display: flex;
   gap: 18px;
   margin-left: -35px;
-  
-}
-
-.card_title {
-  
-}
-
-.exp {
-
 }
 
 .img {
   align-self: center;
 }
+
 .myLans {
   display: flex;
   gap: 18px;
@@ -128,7 +119,7 @@ body {
   color: #717fff;
 }
 
-.proj_button{
+.proj_button {
   width: 100px;
   height: 40px;
   border: 1px solid #6a91f5;
@@ -137,31 +128,39 @@ body {
   color: #6a91f5;
 }
 
-.proj_button:disabled{
-  background-color: #FFFFFF;
-  color: #5E6C84;
+.proj_button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
-.about_two{
+.proj_button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+}
+
+.about_two {
   line-height: 0;
 }
-.about-myself{
+
+.about-myself {
   margin-top: 150px;
   padding-top: 20px;
   background-color: white;
-  display: grid;
-  grid-template-rows: repeat(4, minmax(auto));
 }
 
-.myself_title{
+.myself_title {
   margin-left: 12px;
 }
 
-.myself-text{
+.myself-text {
   margin-left: 12px;
 }
 
-.about_myself_link, .about_myself_media{
+.about_myself_link {
+  margin-left: 12px;
+}
+
+.about_myself_media {
   margin-left: 12px;
 }
 
@@ -170,42 +169,42 @@ body {
   margin-left: -35px;
 }
 
-.skill_header{
+.skill_header {
   display: flex;
-  justify-content: baseline;
   gap: 150px;
 }
-.lan{
+
+.lan {
   display: flex;
   align-items: center;
   list-style: none;
   margin-bottom: 12px;
   gap: 8px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   border-radius: 5px;
   padding-left: 6px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-.langs{
+.langs {
   margin-right: 50px;
   margin-left: -30px;
 }
 
-.sec_header{
+.sec_header {
   margin-left: 12px;
 }
 
-.frame_header{
+.frame_header {
   gap: 130px;
 }
 
-hr{
+hr {
   margin-left: -23px;
   margin-right: 20px;
 }
 
-.my_skills{
+.my_skills {
   gap: 220px;
 }
