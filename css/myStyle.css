@@ -208,3 +208,13 @@ hr {
 .my_skills {
   gap: 220px;
 }
+
+.contact_form{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
