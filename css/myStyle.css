@@ -221,6 +221,7 @@ hr {
   height: 550px;
   background-color: #6070ff;
   width: 100%;
+  margin-left: -2px;
   color: white;
   align-items: center;
 }
