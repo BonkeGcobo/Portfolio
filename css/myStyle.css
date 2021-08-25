@@ -230,21 +230,26 @@ hr {
   margin-right: 20px;
 }
 
-input[type=text] ,input[type=email] {
+input[type=text] {
   width: 300px;
   height: 28px;
   border-radius: 8px;
-  
+}
+
+input[type=email] {
+  width: 300px;
+  height: 28px;
+  border-radius: 8px;
 }
 
 textarea {
   width: 300px;
   height: 100px;
   border-radius: 8px;
-  color:#B3BAC5;
+  color: #b3bac5;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 12px;
