@@ -3,8 +3,9 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
   margin-bottom: 20px;
+  position: fixed;
+  width: 95%;
 }
 
 .hamburger-btn {
@@ -207,4 +208,66 @@ hr {
 
 .my_skills {
   gap: 220px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/contact_shapes.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+  border: solid;
+  height: 550px;
+  background-color: #6070ff;
+  width: 100%;
+  margin-left: -2px;
+  color: white;
+  align-items: center;
+}
+
+.contactForm_info {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+input[type=text] {
+  width: 300px;
+  height: 28px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+input[type=email] {
+  width: 300px;
+  height: 28px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  border-radius: 8px;
+  color: #b3bac5;
+  border-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn_submit {
+  width: 108px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #6a91f5;
+  background-color: white;
+  color: #6070ff;
+}
+
+.btn_submit:hover {
+  cursor: pointer;
 }
