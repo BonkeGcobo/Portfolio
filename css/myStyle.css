@@ -103,6 +103,10 @@ body {
   margin-left: -35px;
 }
 
+.mini {
+  color: #6B778C;
+}
+
 .img {
   align-self: center;
 }
@@ -118,6 +122,9 @@ body {
   text-decoration: none;
   background-color: #ebebff;
   color: #717fff;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .proj_button {
@@ -280,9 +287,29 @@ form {
   display: none;
 }
 
+.my_desk_lan {
+  display: none;
+}
+
+.desktop_title {
+  display: none;
+}
+
+.exp .desk_var {
+  display: none;
+}
+
 @media only screen and (min-width: 915px) {
   .hamburger {
     display: none;
+  }
+
+  .small_sc {
+    display: none;
+  }
+
+  .exp .desk_var {
+    display: flex;
   }
 
   .nav-menu {
@@ -301,6 +328,21 @@ form {
     margin: 25px;
     height: 800px;
     align-items: center;
+  }
+
+  .my_desk_lan {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin-left: -35px;
+  }
+
+   .reverse .myLans {
+    display: none;
+  }
+
+  .proj_3 .myLans{
+    display: none;
   }
 
   .intro_1 {
@@ -336,19 +378,47 @@ form {
   .card {
     flex-direction: row;
     gap: 46px;
+    margin: 142px;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
   }
 
   .card_Desktop {
     display: block;
-    float: left;
+    padding: 24px;
   }
 
   .img {
     display: none;
   }
 
-  .card_info{
+  .card_info {
+    width: auto;
+    margin: 40px;
+  }
 
+  .my_desk_lan {
+    display: flex;
+    justify-content: baseline;
     width: auto;
   }
+  
+  .lan_tag {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .small_screen {
+    display: none;
+  }
+
+  .desktop_title {
+    display: block;
+  }
+
+  .small_sc {
+    display: none;
+  } 
 }
