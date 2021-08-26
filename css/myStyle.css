@@ -276,6 +276,10 @@ form {
   display: none;
 }
 
+.card_Desktop{
+  display: none;
+}
+
 @media only screen and (min-width: 915px) {
   .hamburger {
     display: none;
@@ -327,5 +331,24 @@ form {
 
   .social_media_icons {
     margin-right: 730px;
+  }
+  
+  .card {
+    flex-direction: row;
+    gap: 46px;
+  }
+
+  .card_Desktop {
+    display: block;
+    float: left;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .card_info{
+
+    width: auto;
   }
 }
