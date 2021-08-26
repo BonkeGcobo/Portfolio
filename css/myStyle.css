@@ -34,7 +34,7 @@ body {
 }
 
 .headline {
-  background-image: url("../header-shapes-mobile.png");
+  background-image: url("../images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
@@ -270,4 +270,47 @@ form {
 
 .btn_submit:hover {
   cursor: pointer;
+}
+
+.nav-menu{
+  display: none;
+}
+
+@media only screen and (min-width:915px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin-top: -4px;
+    color: #344563;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/Header_bg_desktop.svg");
+    background-position: center;
+    margin: 25px;
+    height: 800px;
+    align-items: center;
+  }
+
+  .intro_1, .intro_2 {
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .headline-text p{
+    font-size: 20px;
+  }
+  
+  .intro-message, .headline-text, .link{
+    width: 920px;
+  }
+  .social_media_icons {
+    margin-right: 730px;
+  }
 }
