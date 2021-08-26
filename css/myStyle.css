@@ -272,14 +272,15 @@ form {
   cursor: pointer;
 }
 
-.nav-menu{
+.nav-menu {
   display: none;
 }
 
-@media only screen and (min-width:915px) {
+@media only screen and (min-width: 915px) {
   .hamburger {
     display: none;
   }
+
   .nav-menu {
     display: flex;
     gap: 12px;
@@ -298,18 +299,32 @@ form {
     align-items: center;
   }
 
-  .intro_1, .intro_2 {
+  .intro_1 {
     font-weight: bold;
     font-size: 48px;
   }
 
-  .headline-text p{
+  .intro_2 {
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .headline-text p {
     font-size: 20px;
   }
-  
-  .intro-message, .headline-text, .link{
+
+  .intro-message {
     width: 920px;
   }
+
+  .headline-text {
+    width: 920px;
+  }
+
+  .link {
+    width: 920px;
+  }
+
   .social_media_icons {
     margin-right: 730px;
   }
