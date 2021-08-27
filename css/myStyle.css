@@ -31,7 +31,6 @@ body {
 
 .canop {
   list-style: none;
-  font-weight: 400px;
   color: #344563;
 }
 
@@ -106,7 +105,7 @@ body {
 }
 
 .mini {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .img {
@@ -285,7 +284,7 @@ form {
   display: none;
 }
 
-.card_Desktop{
+.card_Desktop {
   display: none;
 }
 
@@ -344,11 +343,11 @@ form {
     margin-left: -35px;
   }
 
-   .reverse .myLans {
+  .reverse .myLans {
     display: none;
   }
 
-  .proj_3 .myLans{
+  .proj_3 .myLans {
     display: none;
   }
 
@@ -381,13 +380,13 @@ form {
   .social_media_icons {
     margin-right: 730px;
   }
-  
+
   .card {
     flex-direction: row;
     gap: 46px;
     margin: 142px;
   }
-  
+
   .reverse {
     flex-direction: row-reverse;
   }
@@ -406,17 +405,11 @@ form {
     margin: 40px;
   }
 
-  .my_desk_lan {
-    display: flex;
-    justify-content: baseline;
-    width: auto;
-  }
-  
   .lan_tag {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
+
   .small_screen {
     display: none;
   }
@@ -425,21 +418,12 @@ form {
     display: block;
   }
 
-  .small_sc {
-    display: none;
-  } 
-
-  .about-myself{
+  .about-myself {
     display: flex;
     gap: 50px;
     margin-top: 10px;
     border-top-right-radius: 100px;
     padding-bottom: 100px;
-  }
-
-  .contact_form {
-    border-top-left-radius: 100px;
-    text-align: center;
   }
 
   .contact_form_heading {
@@ -449,9 +433,8 @@ form {
 
   .contactForm_info {
     font-size: 20px;
-    
   }
-  
+
   .skills_sec {
     width: 70%;
     margin-right: 182px;
@@ -465,24 +448,24 @@ form {
   .skill_header {
     gap: 420px;
   }
-  
+
   .langs {
     display: flex;
-    gap:12px;
+    gap: 12px;
   }
-  
+
   .lan {
     display: block;
     width: 122px;
     height: 120px;
   }
 
-   .the_lan {
-     display: block;
-   }
+  .the_lan {
+    display: block;
+  }
 
-  .my_skills .skill_header{
-    gap:510px;
+  .my_skills .skill_header {
+    gap: 510px;
   }
 
   .myself_title {
@@ -503,15 +486,15 @@ form {
   }
 
   input[type=text] {
-    border-radius: 0px;
+    border-radius: 0;
   }
-  
-  input[type=email]{
-    border-radius: 0px;
+
+  input[type=email] {
+    border-radius: 0;
   }
-  
+
   #msg {
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   .contact_form {
@@ -519,9 +502,5 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 75%;
-
-
   }
-  
-
 }
