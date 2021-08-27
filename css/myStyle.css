@@ -31,6 +31,8 @@ body {
 
 .canop {
   list-style: none;
+  font-weight: 400px;
+  color: #344563;
 }
 
 .headline {
@@ -99,7 +101,7 @@ body {
 
 .exp .sub_tabs {
   display: flex;
-  gap: 18px;
+  gap: 25px;
   margin-left: -35px;
 }
 
@@ -310,6 +312,7 @@ form {
 
   .exp .desk_var {
     display: flex;
+    gap: 12px;
   }
 
   .nav-menu {
@@ -421,4 +424,18 @@ form {
   .small_sc {
     display: none;
   } 
+
+  .about-myself{
+    display: flex;
+  }
+  
+  /*.skills_sec {
+    width: 80%;
+    border: solid;
+    margin-right: 182px;
+  }
+
+  .About_me {
+    border:solid;
+  }*/
 }
