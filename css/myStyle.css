@@ -300,10 +300,6 @@ form {
   display: none;
 }
 
-.the_lan {
-  display: none;
-}
-
 @media only screen and (min-width: 915px) {
   .hamburger {
     display: none;
@@ -502,5 +498,10 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 75%;
+    border-top-left-radius: 100px;
+  }
+
+  .lan_header {
+    gap: 430px;
   }
 }
