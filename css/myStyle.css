@@ -537,7 +537,7 @@ form {
   .Resume_btn:hover {
     cursor: pointer;
   }
-  
+
   .head_img {
     width: 20px;
     transition-property: width;
