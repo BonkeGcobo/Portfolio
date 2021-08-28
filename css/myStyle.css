@@ -84,6 +84,7 @@ body {
 .Works {
   display: grid;
   grid-template-rows: repeat(4, minmax(200px, auto));
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -155,6 +156,7 @@ body {
   margin-top: 150px;
   padding-top: 20px;
   background-color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .myself_title {
@@ -232,6 +234,7 @@ hr {
   margin-left: -2px;
   color: white;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contactForm_info {
@@ -300,7 +303,17 @@ form {
   display: none;
 }
 
-@media only screen and (min-width: 915px) {
+.Resume_btn {
+  width: 150px;
+  height: 34px;
+  border: 1px solid #6a91f5;
+  background-color: white;
+  border-radius: 5px;
+  color: #6a91f5;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
   .hamburger {
     display: none;
   }
@@ -330,6 +343,10 @@ form {
     margin: 25px;
     height: 800px;
     align-items: center;
+  }
+
+  .HEAD {
+    border-bottom-left-radius: 100px;
   }
 
   .my_desk_lan {
@@ -379,6 +396,7 @@ form {
 
   .card {
     flex-direction: row;
+    border: 1px solid #dfe1e6;
     gap: 46px;
     margin: 142px;
   }
@@ -420,6 +438,7 @@ form {
     margin-top: 10px;
     border-top-right-radius: 100px;
     padding-bottom: 100px;
+
   }
 
   .contact_form_heading {
@@ -499,9 +518,24 @@ form {
     background-position: center;
     background-size: 75%;
     border-top-left-radius: 100px;
+    text-align: center;
   }
 
   .lan_header {
     gap: 430px;
+  }
+
+  .Resume_btn {
+    width: 150px;
+    height: 34px;
+    border: 1px solid #6a91f5;
+    background-color: white;
+    border-radius: 5px;
+    color: #6a91f5;
+    margin-left: 10px;
+  }
+
+  .Resume_btn:hover {
+    cursor: pointer;
   }
 }
