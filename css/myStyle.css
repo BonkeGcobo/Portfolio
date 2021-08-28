@@ -31,10 +31,11 @@ body {
 
 .canop {
   list-style: none;
+  color: #344563;
 }
 
 .headline {
-  background-image: url("../header-shapes-mobile.png");
+  background-image: url("../images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
@@ -83,6 +84,7 @@ body {
 .Works {
   display: grid;
   grid-template-rows: repeat(4, minmax(200px, auto));
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -99,8 +101,12 @@ body {
 
 .exp .sub_tabs {
   display: flex;
-  gap: 18px;
+  gap: 25px;
   margin-left: -35px;
+}
+
+.mini {
+  color: #6b778c;
 }
 
 .img {
@@ -118,6 +124,9 @@ body {
   text-decoration: none;
   background-color: #ebebff;
   color: #717fff;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .proj_button {
@@ -147,6 +156,7 @@ body {
   margin-top: 150px;
   padding-top: 20px;
   background-color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .myself_title {
@@ -224,6 +234,7 @@ hr {
   margin-left: -2px;
   color: white;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contactForm_info {
@@ -270,4 +281,260 @@ form {
 
 .btn_submit:hover {
   cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.card_Desktop {
+  display: none;
+}
+
+.my_desk_lan {
+  display: none;
+}
+
+.desktop_title {
+  display: none;
+}
+
+.desk_var {
+  display: none;
+}
+
+.Resume_btn {
+  width: 150px;
+  height: 34px;
+  border: 1px solid #6a91f5;
+  background-color: white;
+  border-radius: 5px;
+  color: #6a91f5;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .hamburger {
+    display: none;
+  }
+
+  .small_sc {
+    display: none;
+  }
+
+  .exp .desk_var {
+    display: flex;
+    gap: 12px;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin-top: -4px;
+    color: #344563;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/Header_bg_desktop.svg");
+    background-position: center;
+    margin: 25px;
+    height: 800px;
+    align-items: center;
+  }
+
+  .HEAD {
+    border-bottom-left-radius: 100px;
+  }
+
+  .my_desk_lan {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin-left: -35px;
+  }
+
+  .reverse .myLans {
+    display: none;
+  }
+
+  .proj_3 .myLans {
+    display: none;
+  }
+
+  .intro_1 {
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .intro_2 {
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .headline-text p {
+    font-size: 20px;
+  }
+
+  .intro-message {
+    width: 920px;
+  }
+
+  .headline-text {
+    width: 920px;
+  }
+
+  .link {
+    width: 920px;
+  }
+
+  .social_media_icons {
+    margin-right: 730px;
+  }
+
+  .card {
+    flex-direction: row;
+    border: 1px solid #dfe1e6;
+    gap: 46px;
+    margin: 142px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card_Desktop {
+    display: block;
+    padding: 24px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .card_info {
+    width: auto;
+    margin: 40px;
+  }
+
+  .lan_tag {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .small_screen {
+    display: none;
+  }
+
+  .desktop_title {
+    display: block;
+  }
+
+  .about-myself {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    border-top-right-radius: 100px;
+    padding-bottom: 100px;
+  }
+
+  .contact_form_heading {
+    font-size: 40px;
+    width: 569px;
+  }
+
+  .contactForm_info {
+    font-size: 20px;
+  }
+
+  .skills_sec {
+    width: 70%;
+    margin-right: 182px;
+  }
+
+  .About_me {
+    width: 30%;
+    margin-left: 142px;
+  }
+
+  .skill_header {
+    gap: 420px;
+  }
+
+  .langs {
+    display: flex;
+    gap: 12px;
+  }
+
+  .lan {
+    display: block;
+    width: 122px;
+    height: 120px;
+  }
+
+  .the_lan {
+    display: block;
+  }
+
+  .my_skills .skill_header {
+    gap: 510px;
+  }
+
+  .myself_title {
+    font-size: 40px;
+    width: 447px;
+  }
+
+  .myself-text {
+    font-size: 16px;
+  }
+
+  .contact_info_para {
+    width: 498px;
+  }
+
+  .btn_submit {
+    align-self: center;
+  }
+
+  input[type=text] {
+    border-radius: 0;
+  }
+
+  input[type=email] {
+    border-radius: 0;
+  }
+
+  #msg {
+    border-radius: 0;
+  }
+
+  .contact_form {
+    background-image: url("../images/contact_form_background_Desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    border-top-left-radius: 100px;
+    text-align: center;
+  }
+
+  .lan_header {
+    gap: 430px;
+  }
+
+  .Resume_btn {
+    width: 150px;
+    height: 34px;
+    border: 1px solid #6a91f5;
+    background-color: white;
+    border-radius: 5px;
+    color: #6a91f5;
+    margin-left: 10px;
+  }
+
+  .Resume_btn:hover {
+    cursor: pointer;
+  }
 }
