@@ -5,8 +5,12 @@
 > Create Professional Portifolio
 
 
-# Live Version
- -https://bonkegcobo.github.io/Portfolio/
+
+## Live version
+https://bonkegcobo.github.io/Portfolio/
+
+
+Additional description about the project and its features.
 
 
 ## Built With
