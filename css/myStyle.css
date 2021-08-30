@@ -101,7 +101,7 @@ body {
 
 .exp .sub_tabs {
   display: flex;
-  gap: 25px;
+  gap: 30px;
   margin-left: -35px;
 }
 
