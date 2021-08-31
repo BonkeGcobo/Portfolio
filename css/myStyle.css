@@ -65,7 +65,7 @@ body {
 
 .link a {
   text-decoration: none;
-  color: #18a0fb;
+  color:#4e5cd4;
 }
 
 .social_media_icons {
@@ -115,6 +115,7 @@ body {
 
 .myLans {
   display: flex;
+  color: #4e5cd4;
   gap: 18px;
   list-style: none;
   margin-left: -35px;
@@ -133,9 +134,9 @@ body {
   width: 100px;
   height: 40px;
   border: 1px solid #6a91f5;
+  color: #4e5cd4;
   background-color: white;
   border-radius: 5px;
-  color: #6a91f5;
 }
 
 .proj_button:hover {
@@ -229,7 +230,7 @@ hr {
   background-position: right;
   border: solid;
   height: 550px;
-  background-color: #6070ff;
+  background-color: #4d5ef7;
   width: 100%;
   margin-left: -2px;
   color: white;
@@ -276,7 +277,7 @@ form {
   border-radius: 8px;
   border: 1px solid #6a91f5;
   background-color: white;
-  color: #6070ff;
+  color: #4e5cd4;
 }
 
 .btn_submit:hover {
@@ -293,6 +294,7 @@ form {
 
 .my_desk_lan {
   display: none;
+  color: #4e5cd4;
 }
 
 .desktop_title {
@@ -421,6 +423,7 @@ form {
 
   .lan_tag {
     padding-left: 0;
+    color: #4e5cd4;
     padding-right: 0;
   }
 
@@ -530,7 +533,7 @@ form {
     border: 1px solid #6a91f5;
     background-color: white;
     border-radius: 5px;
-    color: #6a91f5;
+    color: #4e5cd4;
     margin-left: 10px;
   }
 
