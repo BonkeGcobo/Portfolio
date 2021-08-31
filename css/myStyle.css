@@ -537,4 +537,14 @@ form {
   .Resume_btn:hover {
     cursor: pointer;
   }
+
+  .head_img {
+    width: 20px;
+    transition-property: width;
+    transition-duration: 100ms;
+  }
+
+  .head_img:hover {
+    width: 40px;
+  }
 }
