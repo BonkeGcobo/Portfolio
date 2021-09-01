@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  position: fixed;
-  width: 95%;
+  width: 85%;
+  padding: 1rem;
 }
 
 .hamburger-btn {
@@ -16,6 +16,9 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f7f7f9;
   color: #172b4d;
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
 }
 
 .hori_line {
@@ -42,6 +45,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 1rem;
 }
 
 .intro-message {
@@ -65,7 +69,7 @@ body {
 
 .link a {
   text-decoration: none;
-  color: #18a0fb;
+  color: #4e5cd4;
 }
 
 .social_media_icons {
@@ -101,7 +105,7 @@ body {
 
 .exp .sub_tabs {
   display: flex;
-  gap: 25px;
+  gap: 20px;
   margin-left: -35px;
 }
 
@@ -115,6 +119,7 @@ body {
 
 .myLans {
   display: flex;
+  color: #4e5cd4;
   gap: 18px;
   list-style: none;
   margin-left: -35px;
@@ -133,9 +138,9 @@ body {
   width: 100px;
   height: 40px;
   border: 1px solid #6a91f5;
+  color: #4e5cd4;
   background-color: white;
   border-radius: 5px;
-  color: #6a91f5;
 }
 
 .proj_button:hover {
@@ -154,7 +159,7 @@ body {
 
 .about-myself {
   margin-top: 150px;
-  padding-top: 20px;
+  padding: 1rem;
   background-color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -182,7 +187,7 @@ body {
 
 .skill_header {
   display: flex;
-  gap: 150px;
+  gap: 35%;
 }
 
 .lan {
@@ -205,19 +210,13 @@ body {
 
 .sec_header {
   margin-left: 12px;
-}
-
-.frame_header {
-  gap: 130px;
+  width: 237px;
 }
 
 hr {
   margin-left: -23px;
   margin-right: 20px;
-}
-
-.my_skills {
-  gap: 220px;
+  width: 75%;
 }
 
 .contact_form {
@@ -229,7 +228,7 @@ hr {
   background-position: right;
   border: solid;
   height: 550px;
-  background-color: #6070ff;
+  background-color: #4d5ef7;
   width: 100%;
   margin-left: -2px;
   color: white;
@@ -243,21 +242,21 @@ hr {
 }
 
 input[type=text] {
-  width: 300px;
+  width: 95%;
   height: 28px;
   border-radius: 8px;
   border-style: none;
 }
 
 input[type=email] {
-  width: 300px;
+  width: 95%;
   height: 28px;
   border-radius: 8px;
   border-style: none;
 }
 
 textarea {
-  width: 300px;
+  width: 95%;
   height: 100px;
   border-radius: 8px;
   color: #b3bac5;
@@ -276,7 +275,7 @@ form {
   border-radius: 8px;
   border: 1px solid #6a91f5;
   background-color: white;
-  color: #6070ff;
+  color: #4e5cd4;
 }
 
 .btn_submit:hover {
@@ -293,6 +292,7 @@ form {
 
 .my_desk_lan {
   display: none;
+  color: #4e5cd4;
 }
 
 .desktop_title {
@@ -300,6 +300,14 @@ form {
 }
 
 .desk_var {
+  display: none;
+}
+
+label {
+  display: none;
+}
+
+.desktop_exp {
   display: none;
 }
 
@@ -324,7 +332,11 @@ form {
 
   .exp .desk_var {
     display: flex;
-    gap: 12px;
+    gap: 20px;
+  }
+
+  .Logo {
+    margin-left: 2rem;
   }
 
   .nav-menu {
@@ -333,6 +345,17 @@ form {
     list-style: none;
     margin-top: -4px;
     color: #344563;
+    margin-right: 120px;
+    margin-left: auto;
+  }
+
+  label {
+    display: none;
+  }
+
+  .header-container {
+    width: 100%;
+    margin-top: 5px;
   }
 
   .headline {
@@ -397,8 +420,13 @@ form {
   .card {
     flex-direction: row;
     border: 1px solid #dfe1e6;
-    gap: 46px;
+    gap: 3rem;
     margin: 142px;
+    width: 80%;
+  }
+
+  .image_desk {
+    width: 544px;
   }
 
   .reverse {
@@ -407,7 +435,12 @@ form {
 
   .card_Desktop {
     display: block;
+    width: 40%;
     padding: 24px;
+  }
+
+  .card_Desktop img {
+    width: 350px;
   }
 
   .img {
@@ -415,12 +448,18 @@ form {
   }
 
   .card_info {
-    width: auto;
+    width: 60%;
     margin: 40px;
+  }
+
+  body {
+    overflow-x: hidden;
+    margin: 0;
   }
 
   .lan_tag {
     padding-left: 0;
+    color: #4e5cd4;
     padding-right: 0;
   }
 
@@ -460,7 +499,7 @@ form {
   }
 
   .skill_header {
-    gap: 420px;
+    gap: 200px;
   }
 
   .langs {
@@ -476,10 +515,6 @@ form {
 
   .the_lan {
     display: block;
-  }
-
-  .my_skills .skill_header {
-    gap: 510px;
   }
 
   .myself_title {
@@ -516,12 +551,13 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 75%;
+    padding-bottom: 150px;
     border-top-left-radius: 100px;
     text-align: center;
   }
 
-  .lan_header {
-    gap: 430px;
+  .contact_container {
+    background-color: white;
   }
 
   .Resume_btn {
@@ -530,7 +566,7 @@ form {
     border: 1px solid #6a91f5;
     background-color: white;
     border-radius: 5px;
-    color: #6a91f5;
+    color: #4e5cd4;
     margin-left: 10px;
   }
 
@@ -540,11 +576,9 @@ form {
 
   .head_img {
     width: 20px;
-    transition-property: width;
-    transition-duration: 100ms;
   }
 
-  .head_img:hover {
-    width: 40px;
+  .desktop_exp {
+    display: block;
   }
 }
