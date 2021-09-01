@@ -331,7 +331,7 @@ label {
     gap: 20px;
   }
 
-  .Logo{
+  .Logo {
     margin-left: 2rem;
   }
 
@@ -351,6 +351,7 @@ label {
 
   .header-container {
     width: 100%;
+    margin-top: 5px;
   }
 
   .headline {
@@ -575,9 +576,5 @@ label {
 
   .desktop_exp {
     display: block;
-  }
-
-  .header-container {
-    margin-top: 5px;
   }
 }
