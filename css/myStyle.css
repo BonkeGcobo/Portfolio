@@ -20,7 +20,7 @@ body {
 
 .hori_line {
   list-style: none;
-}*
+}
 
 .HEAD {
   display: flex;
@@ -291,10 +291,6 @@ form {
   color: #4e5cd4;
 }
 
-.my_desk_lan .lan_tag{
-  padding: 4px, 12px, 4px, 12px;
-}
-
 .desktop_title {
   display: none;
 }
@@ -515,10 +511,6 @@ label {
   .the_lan {
     display: block;
   }
-
-  /*.my_skills .skill_header {
-    gap: 400px;
-  }*/
 
   .myself_title {
     font-size: 40px;
