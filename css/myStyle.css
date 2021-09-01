@@ -43,6 +43,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 1rem;
 }
 
 .intro-message {
@@ -159,6 +160,7 @@ body {
   padding-top: 20px;
   background-color: white;
   font-family: 'Poppins', sans-serif;
+  width: 90%;
 }
 
 .myself_title {
