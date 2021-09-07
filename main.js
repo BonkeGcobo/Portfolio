@@ -1,7 +1,14 @@
-let btn= document.querySelector('#hamburger');
+window.onload= ()=> {
 
-btn.addEventListener('clicked', function(event){
-    let my_show=document.querySelector('ul.mob_menu');
-    my_show.classList.toggle('.show');
+  const hamburger= document.querySelector('#hamburger');
+
+  hamburger.addEventListener('click', function(event){
+    const my_show=document.querySelector('.mob-menu');
+    my_show.classList.add('.showed');
     
 })
+
+
+
+
+}
