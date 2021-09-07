@@ -164,6 +164,35 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.mob_menu {
+  display: block;
+  background-color: #6070FF;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  color: white;
+  list-style: none;
+  padding: 2rem;
+}
+
+.mob_menu .show {
+  left: 0px;
+}
+
+.mob_menu li {
+  margin: 1rem;
+  font-size: 24px;
+  
+}
+.cancel_btn {
+  border: solid;
+}
+
 .myself_title {
   margin-left: 12px;
 }
@@ -322,7 +351,7 @@ label {
 }
 
 @media only screen and (min-width: 1000px) {
-  .hamburger {
+  #hamburger {
     display: none;
   }
 
@@ -350,6 +379,10 @@ label {
   }
 
   label {
+    display: none;
+  }
+
+  .mob_menu {
     display: none;
   }
 
