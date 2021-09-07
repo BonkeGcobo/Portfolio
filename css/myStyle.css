@@ -367,7 +367,7 @@ label {
   color: white;
   list-style: none;
   padding: 2rem;
-  
+  mix-blend-mode: multiply;
 }
 
 .mob_menu li {
@@ -375,6 +375,9 @@ label {
   font-size: 24px;
 }
 
+/*.HEAD .make_blur {
+
+}*/
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;
