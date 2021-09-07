@@ -345,7 +345,8 @@ label {
   font-size: 32px;
   font-weight: bold;
   list-style: none;
-  padding-left: 10px;
+  padding-left: 30px;
+  line-height: 80px;
 }
 
 .mob_items li {
@@ -373,6 +374,7 @@ label {
 .mob_menu li {
   margin: 1rem;
   font-size: 24px;
+  
 }
 
 .HEAD.make_blur {
@@ -381,6 +383,15 @@ label {
   background-color: white;
   width: 100%;
   filter: blur(16px);
+}
+
+.cancel_btn {
+  margin-left: auto;
+  display: block;
+  padding: 14px;
+  margin-right: 60px;
+  cursor: pointer;
+  box-sizing: content-box;
 }
 
 @media only screen and (min-width: 1000px) {
