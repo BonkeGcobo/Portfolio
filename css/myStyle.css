@@ -338,7 +338,7 @@ label {
 }
 
 .close-tag{
-  padding-left: 250px;
+  padding-left: 20rem;
 }
 
 .mob-items {
@@ -375,9 +375,14 @@ label {
   font-size: 24px;
 }
 
-/*.HEAD .make_blur {
+.HEAD.make_blur {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  filter: blur(16px);
+}
 
-}*/
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;
