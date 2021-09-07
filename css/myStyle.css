@@ -323,14 +323,14 @@ label {
 
 .mob-menu {
   display: block;
-  background-color: #6070FF;
+  background-color: #6070ff;
   width: 100%;
   margin-top: 0;
   height: 100%;
   left: -150%;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
   position: fixed;
   color: white;
   list-style: none;
@@ -351,7 +351,6 @@ label {
 
 .mob_items li {
   margin: 1rem;
-
 }
 
 .mob-items li a {
@@ -361,14 +360,14 @@ label {
 
 .mob-menu.show {
   display: block;
-  background-color: #6070FF;
+  background-color: #6070ff;
   width: 100%;
   margin-top: 0;
   height: 100%;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   position: fixed;
   color: white;
   list-style: none;
