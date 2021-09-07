@@ -180,6 +180,11 @@ body {
   padding: 2rem;
 }
 
+.cancel_btn {
+  border: solid;
+  left: 0;
+}
+
 .mob_menu .show {
   left: 0px;
 }
