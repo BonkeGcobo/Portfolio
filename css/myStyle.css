@@ -164,43 +164,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-<<<<<<< HEAD
-.mob_menu {
-  display: block;
-  background-color: #6070FF;
-  width: 100%;
-  margin-top: 0;
-  height: 100%;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  position: absolute;
-  color: white;
-  list-style: none;
-  padding: 2rem;
-}
-
-.cancel_btn {
-  border: solid;
-  left: 0;
-}
-
-.mob_menu .show {
-  left: 0px;
-}
-
-.mob_menu li {
-  margin: 1rem;
-  font-size: 24px;
-  
-}
-=======
->>>>>>> d26982d17a95bca14d46d40c368ccc7e531b74ff
-.cancel_btn {
-  border: solid;
-}
-
 .myself_title {
   margin-left: 12px;
 }
@@ -358,13 +321,13 @@ label {
   margin-left: 10px;
 }
 
-.mob-menu .showed {
+.mob-menu {
   display: block;
   background-color: #6070FF;
   width: 100%;
   margin-top: 0;
   height: 100%;
-  left: 0px;
+  left: -150%;
   right: 0px;
   top: 0px;
   bottom: 0px;
@@ -385,8 +348,26 @@ label {
   padding-left: 10px;
 }
 
-.mob-menu .showed {
+.mob_items li {
+  margin: 1rem;
+
+}
+
+.mob-menu.show {
   display: block;
+  background-color: #6070FF;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: fixed;
+  color: white;
+  list-style: none;
+  padding: 2rem;
+  
 }
 
 .mob_menu li {
