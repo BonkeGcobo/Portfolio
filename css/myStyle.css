@@ -354,6 +354,11 @@ label {
 
 }
 
+.mob-items li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .mob-menu.show {
   display: block;
   background-color: #6070FF;
