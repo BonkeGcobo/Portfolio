@@ -397,6 +397,61 @@ label {
   box-sizing: content-box;
 }
 
+.modal_mob {
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0,0,0, .5);
+
+}
+
+.model_content {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 85%;
+  height: 83%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 16px;
+  margin-right: 16px;
+  /*align-items: center;*/
+  background-color: white;
+
+  border:solid;
+}
+
+.pop_upHeader {
+  display: flex;
+  gap: 12rem;
+  flex-direction: row-reverse;
+}
+
+.pop-close {
+  margin-top: 30px;
+  padding-right: 16px;
+}
+
+.closebtn{
+  
+  padding-top: 30px;
+} 
+
+.para_content {
+  font-size: 13px;
+}
+
+/*.popUp_content {
+  width: 60%;
+  height: 70%;
+}*/
+
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;
