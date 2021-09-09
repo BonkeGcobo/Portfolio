@@ -338,7 +338,8 @@ label {
 }
 
 .close-tag {
-  padding-left: 20rem;
+  padding-left: 70%;
+  margin-right: 60px;
 }
 
 .mob-items {
