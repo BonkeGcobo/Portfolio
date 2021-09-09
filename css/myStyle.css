@@ -407,7 +407,7 @@ label {
   bottom: 0;
   position: fixed;
   z-index: 1;
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .model_content {
@@ -416,13 +416,11 @@ label {
   position: fixed;
   width: 90%;
   height: 92%;
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 20px;
-  /*margin-bottom: 50px;*/
   margin-left: 16px;
   margin-right: 16px;
   border-radius: 16px;
-  /*align-items: center;*/
   background-color: white;
 }
 
@@ -437,9 +435,9 @@ label {
   padding-right: 16px;
 }
 
-.closebtn{
+.closebtn {
   padding-top: 30px;
-} 
+}
 
 #pop_Text {
   font-size: 13px;
@@ -452,7 +450,6 @@ label {
 .popUpExp {
   display: flex;
   gap: 20px;
-  /*margin-left: -25px;*/
 }
 
 #img {
@@ -476,7 +473,6 @@ label {
   gap: 99px;
   margin-left: 15px;
   margin-top: 25px;
-  height: fit-content;
 }
 
 .live {
@@ -780,7 +776,7 @@ label {
     bottom: 0;
     position: fixed;
     z-index: 1;
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .model_content_desk {
@@ -789,7 +785,7 @@ label {
     position: fixed;
     width: 95%;
     height: 90%;
-    padding: .5rem;
+    padding: 0.5rem;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 16px;
@@ -797,8 +793,6 @@ label {
     border-radius: 16px;
     align-items: center;
     background-color: white;
-  
-    border:solid;
   }
 
   .pop_upHeader_desk {
@@ -810,15 +804,11 @@ label {
 
   .text-exp {
     display: flex;
-    /*grid-template-columns: 2fr 1fr ;*/
     width: fit-content;
-    height: fit-content;
   }
-
 
   .lorem {
     width: 60%;
-    height: fit-content;
   }
 
   .experienceD {
@@ -828,7 +818,6 @@ label {
 
   .exp_desk_pop {
     padding-left: -28px;
-
   }
 
   .pop-close_desk {
@@ -857,6 +846,5 @@ label {
     gap: 5px;
     margin-top: 20px;
     margin-left: 7px;
-  }
-  
+  }    
 }
