@@ -416,11 +416,13 @@ label {
   flex-direction: column;
   position: fixed;
   width: 85%;
-  height: 83%;
-  margin-top: 60px;
-  margin-bottom: 50px;
+  height: 85%;
+  padding: .5rem;
+  margin-top: 20px;
+  /*margin-bottom: 50px;*/
   margin-left: 16px;
   margin-right: 16px;
+  border-radius: 16px;
   /*align-items: center;*/
   background-color: white;
 
@@ -430,7 +432,6 @@ label {
 .pop_upHeader {
   display: flex;
   gap: 12rem;
-  flex-direction: row-reverse;
 }
 
 .pop-close {
@@ -439,18 +440,58 @@ label {
 }
 
 .closebtn{
-  
   padding-top: 30px;
 } 
 
-.para_content {
+#pop_Text {
   font-size: 13px;
 }
 
-/*.popUp_content {
-  width: 60%;
-  height: 70%;
-}*/
+.Popcontent {
+  padding: 1rem;
+}
+
+.popUpExp {
+  display: flex;
+  gap: 20px;
+  margin-left: -25px;
+}
+
+#img {
+  padding-left: 38px;
+  padding-right: 6px;
+  width: 200px;
+}
+
+.tag_list {
+  margin-left: 10px;
+}
+
+.pop-line {
+  margin-top: 16px;
+  margin-left: 45px;
+  width: 95%;
+}
+
+.popBtns {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  gap: 30px;
+}
+
+.popBtn {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #6a91f5;
+  color: #4e5cd4;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.modal_mob_desk {
+  display: none;
+}
 
 @media only screen and (min-width: 1000px) {
   #hamburger {
@@ -716,4 +757,60 @@ label {
   .desktop_exp {
     display: block;
   }
+
+  .modal_mob_desk {
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0, .5);
+  }
+
+  .model_content_desk {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 85%;
+    height: 85%;
+    padding: .5rem;
+    margin-top: 20px;
+    /*margin-bottom: 50px;*/
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 16px;
+    /*align-items: center;*/
+    background-color: white;
+  
+    border:solid;
+  }
+
+  .pop_upHeader_desk {
+    display: flex;
+    gap: 80%;
+  }
+
+  .experienceD {
+    margin-top: -40px;
+  }
+
+  .pop-close_desk {
+    margin-top: 30px;
+    padding-right: 16px;
+  }
+
+  .pop_Image_desk{
+    width: 60%;
+    height: 60%;
+    border: solid;
+  }
+
+  #imgDesk {
+    height: 100%;
+  }
+  
 }

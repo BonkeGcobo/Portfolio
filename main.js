@@ -25,67 +25,181 @@ window.onload = () => {
     myShow.classList.toggle('show');
   });
 
-   class proJect  {
-     constructor(title, exp, img, content, skills) {
-      this.title =title;
-      this.exp = exp;
-      this.img = img;
-      this.content = content;
-      this.skills =skills;
-     }
+    
+const store = {
+
+  detail1: {
+    name: 'Tonic',
+    img: 'images/Project_1.svg',
+    img_desk: 'images/card_1_image_desk.svg',
+    name_desk: 'Tonic',
+    companyName: 'CANOPY',
+    companyNameDesk: 'Canopy',
+    job: 'Back End Dev',
+    jobDesk: 'Back End Dev',
+    year: 2015,
+    yearDesk: 2015,
+    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    tags: ['html', 'css', 'javaScript'],
+
+  },
+
+  detail2: {
+    name: 'Multi-Post Stories',
+    img: 'images/Project_2.svg',
+
+    companyName: 'Canopy',
+    job: 'Full Stack Dev',
+    year: 2015,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+    tags: ['html', 'css', 'javaScript'],
+  },
+
+  detail3: {
+    name: 'Tonic',
+    img: 'images/Project_3.svg',
+    companyName: 'Canopy',
+    job: 'Back End Dev',
+    year: 2015,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+    tags: ['html','css', 'javaScript'],
+  },
+
+  detail4: {
+    name: 'Multi-Post Stories',
+    img: 'images/Project_4.svg',
+    companyName: 'Canopy',
+    job: 'Back End Dev',
+    year: 2018,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. ',
+    tags: ['html','css', 'javaScript'],
+  },
+
+};
+
+const name=document.querySelector('.nameOfProject');
+const name_desk=document.querySelector('.nameOfProject_desk'); /*Calling desktop project*/ 
+
+const companyName=document.getElementById('company');
+const companyNameDesk=document.getElementById('company_Desk');
+
+const job=document.getElementById('job');
+const job_Desk=document.getElementById('job_Desk');
+
+const year=document.getElementById('year');
+const year_Desk=document.getElementById('year_Desk');
+
+const image=document.getElementById('img');
+const imageDesk=document.getElementById('imgDesk');
+
+const text=document.getElementById('pop_Text');
+const Desktext=document.getElementById('pop_text_desk');
+
+const btn1 = document.querySelector('.btnProj1');
+const btn2 = document.querySelector('.btnProj2');
+const btn3 = document.querySelector('.btnProj3');
+const btn4 = document.querySelector('.btnProj4');
+
+var modal_mob;
+
+function media(size) {
+  if(size.matches){
+    modal_mob=document.querySelector('.modal_mob_desk');
+    modal_mob.style.display='block';
+  }
+  else {
+    modal_mob=document.querySelector('.modal_mob');
+    modal_mob.style.display='block';
   }
 
-  let seeProject = Array.from(document.querySelectorAll('.proj_button'));
+}
+const span = document.getElementsByClassName('close')[0];
+const span_desk = document.getElementsByClassName('close_desk')[0];
+const tags = document.getElementById('tags');
 
 
-  for(let proBtn of seeProject){
-    console.log(proBtn);
-    if(proBtn.classList.contains('btnProj1')){
-      proBtn.addEventListener('click',function(openModal){
-        const text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';
-        
-        let proj=new proJect(document.getElementById('title_1'),
-        document.getElementById('exp_1'),document.getElementById('img_1'),text, document.getElementById('lan_1'));
-        
+function changePopup(order) {
+  const detail = store[`detail${order}`];
+  name.textContent = detail.name;
 
-        let modal_mob=document.querySelector('.modal_mob');
-        let model_content=document.querySelector('.model_content');
-        
-        let popUpHeader=document.querySelector('.pop_upHeader');
-        popUpHeader.appendChild(proj.title);
-    
-        modal_mob.style.display='block'
-        
-        /*let myExp=document.querySelector(".experience");*/
-        model_content.appendChild(proj.exp);
+  name_desk.textContent=detail.name_desk;
 
-        /*let theImage=document.querySelector('.the_img');*/
-        model_content.appendChild(proj.img);
+  text.innerHTML=detail.description;
+  Desktext.innerHTML=detail.description;
+  console.log(detail.name);
 
-        let popUp_content=document.createElement('div');
-        popUp_content.className='popUp_content';
-        let para_content=document.createElement('p');
-        para_content.className='para_content';
-        para_content.textContent=proj.content;
-        popUp_content.appendChild(para_content);
-        model_content.appendChild(popUp_content);
+  companyName.innerHTML = detail.companyName;
+  companyNameDesk.innerHTML=detail.companyNameDesk;
 
-      })
-    }
-    else if(proBtn.classList.contains('btnProj2')){
-      proBtn.addEventListener('click',function(event){
-        const content='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';
-        let proj=new proJect(document.getElementById('title_2'),
-        document.getElementById('exp_2'),document.getElementById('img_2'), content, document.getElementById('lan_2'));
-    
-        console.log(proj);
-      })
+  job.innerHTML = detail.job;
+  job_Desk.innerHTML=detail.jobDesk;
+
+  year.innerHTML = detail.year;
+  year_Desk.innerHTML = detail.yearDesk;
+
+  image.src=detail.img;
+  imageDesk.src=detail.img_desk;
+
+  const tagsLength = detail.tags.length;
+  const tagDiv = document.querySelector('.tag_list');
+  tagDiv.innerHTML="";
   
-    }
+  
 
+
+  for (let i = 0; i < tagsLength; i++) {
+    const element = document.createElement('li');
+    element.textContent = detail.tags[i];
+    console.log(element.textContent);
+    tagDiv.appendChild(element);
+    element.style.display = 'inline';
+    element.style.alignItems = 'center';
+    element.style.borderRadius = '8px';
+    element.style.color = '#6070ff';
+    element.style.padding = '8px 12px';
+    element.style.fontSize = '12px';
+    element.style.listStyleType = 'none';
+    element.style.fontWeight = '500';
+    element.style.margin = '5px';
+    element.style.background = '#ebebff';
   }
-  
-  
+}
+
+
+
+
+var size = window.matchMedia("(min-width: 1000px)")
+span.onclick = function bar() {
+  modal_mob.style.display = 'none';
+};
+
+span_desk.onclick = function bar() {
+  modal_mob.style.display = 'none';
+};
+
+
+btn1.onclick = function bar() {
+  media(size);
+  changePopup(1);
+};
+
+
+btn2.onclick = function bar() {
+  modal_mob.style.display = 'block';
+  changePopup(2);
+};
+
+btn3.onclick = function bar() {
+  modal_mob.style.display = 'block';
+  changePopup(3);
+};
+
+btn4.onclick = function bar() {
+  modal_mob.style.display = 'block';
+  changePopup(4);
+};
+
 
 
 };
+
