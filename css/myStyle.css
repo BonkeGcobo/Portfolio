@@ -493,6 +493,65 @@ label {
   display: none;
 }
 
+
+
+.mod-pop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid;
+  background-color: #a0a7e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  width: fit-content;
+}
+
+.mod-title{
+display: inline-flex;
+justify-content: space-between;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.mod-image {
+
+}
+
+.mob-content {
+
+}
+.mod-text {
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "poppins", sans-serif;
+}
+.mod-tech ul {
+  list-style: none;
+
+}
+
+.mod-btn {
+
+}
+.canopy  {
+  list-style: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 800px){
+.modbtn {
+  display: none;
+}
+
+}
+
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;
@@ -758,7 +817,7 @@ label {
     display: block;
   }
 
-  .modal_mob_desk {
+  /*.modal_mob_desk {
     display: none;
     width: 100%;
     height: 100%;
@@ -779,11 +838,11 @@ label {
     height: 85%;
     padding: .5rem;
     margin-top: 20px;
-    /*margin-bottom: 50px;*/
+    /*margin-bottom: 50px;
     margin-left: 16px;
     margin-right: 16px;
-    border-radius: 16px;
-    /*align-items: center;*/
+    border-radius: 16p
+    /*align-items: center;
     background-color: white;
   
     border:solid;
@@ -811,6 +870,8 @@ label {
 
   #imgDesk {
     height: 100%;
-  }
+  }*/
+
+
   
 }

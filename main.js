@@ -26,7 +26,7 @@ window.onload = () => {
   });
 
     
-const store = {
+/*const store = {
 
   detail1: {
     name: 'Tonic',
@@ -80,7 +80,7 @@ const store = {
 const name=document.querySelector('.nameOfProject');
 const name_desk=document.querySelector('.nameOfProject_desk'); /*Calling desktop project*/ 
 
-const companyName=document.getElementById('company');
+/*const companyName=document.getElementById('company');
 const companyNameDesk=document.getElementById('company_Desk');
 
 const job=document.getElementById('job');
@@ -202,4 +202,112 @@ btn4.onclick = function bar() {
 
 
 };
+*/
+const projectContent = [
+  {
+    Image: 'images/Project_1.svg',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    name: 'Multi-Post Stories',
+    technologies: ['Ruby on rails', 'Bootstrap', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+  {
+    Image: './image/prof-print.png',
+    description:
+      ' A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    name: 'card 2',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+  {
+    Image: './image/dash-data.png',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    name: 'card 3',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+  {
+    Image: './image/dash-data.png',
+    description:
+      'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    name: 'card 4',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+  {
+    Image: './image/websitepro.png',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    name: 'card 5',
+    technologies: ['Python', 'React', 'bootstrap'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+  {
+    Image: './image/websitepro.png',
+    description:
+      'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    name: 'card 6',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
+  },
+];
+
+const buttons = document.querySelectorAll('.cproject');
+buttons.forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    const project = projectContent[i];
+
+    const popup = document.querySelector('.mod-pop');
+    popup.style.display = 'flex';
+
+    // get title of popup
+    const popupTitle = popup.querySelector('.card-title');
+    const popupImage = popup.querySelector('.mod-image');
+    const popupTech = popup.querySelector('.mod-btn');
+    const popupDesc = popup.querySelector('.mod-text');
+
+    popupTitle.textContent = project.name;
+    popupImage.src = project.Image;
+
+    popupTech.querySelectorAll('button').forEach((tech, j) => {
+      tech.textContent = project.technologies[j];
+    });
+
+    popupDesc.textContent = project.description;
+
+    const aTags = popup.querySelectorAll('.btnz');
+    const [liveLink, sourceLink] = project.links;
+
+    aTags[0].href = liveLink;
+    aTags[1].href = sourceLink;
+  });
+});
+
+const closeElement = document.querySelector('.mob-close');
+closeElement.addEventListener('click', () => {
+  const popup = document.querySelector('.mod-pop');
+  popup.style.display = 'none';
+  console.log (closeElement);
+});
+
 
