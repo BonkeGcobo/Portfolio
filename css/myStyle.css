@@ -479,13 +479,22 @@ label {
   height: fit-content;
 }
 
+.live {
+  margin-left: 9px;
+}
+
 .popBtn {
   width: 100px;
-  height: 25px;
+  height: 40px;
   border: 1px solid #6a91f5;
   color: #4e5cd4;
   background-color: white;
   border-radius: 5px;
+}
+
+.popBtn2 {
+  width: 130px;
+  margin-right: 20px;
 }
 
 .modal_mob_desk {
