@@ -393,7 +393,7 @@
         </p>
       </div>
 
-      <form action="https://formspree.io/f/mpzkoegn" method="post">
+    <form id="form-input" action="https://formspree.io/f/mpzkoegn" method="post">
 
       <label for="user_name">Enter your name:</label>
       <input type="text" name="user_name" id="user_name" placeholder="Enter your name" required maxlength="30" />
@@ -405,7 +405,8 @@
       <textarea name="msg" id="msg" placeholder="Enter text here" required></textarea>
       <button class="btn_submit" type="submit">
           Get in touch
-        </button>
+      </button>
+      <span id="error-messge"></span> 
     </form>
     </div>
   </footer>
