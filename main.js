@@ -26,9 +26,8 @@ window.onload = () => {
   });
 
     
-const store = {
-
-  detail1: {
+const store = [{
+    detail1:'key1', 
     name: 'Tonic',
     img: 'images/Project_1.svg',
     img_desk: 'images/card_1_image_desk.svg',
@@ -44,7 +43,7 @@ const store = {
 
   },
 
-  detail2: {
+   {detail2: 'key2',
     name: 'Tonic',
     name_desk: 'Facebook 360',
     img: 'images/Project_2.svg',
@@ -59,7 +58,7 @@ const store = {
     tags: ['html', 'css', 'javaScript'],
   },
 
-  detail3: {
+    {detail3: 'key3', 
     name: 'Tonic',
     name_desk: 'Facebook 360',
     img: 'images/Project_3.svg',
@@ -74,7 +73,7 @@ const store = {
     tags: ['html','css', 'javaScript'],
   },
 
-  detail4: {
+    {detail4: 'key4', 
     name: 'Tonic',
     name_desk: 'Uber Navigation',
     img: 'images/Project_4.svg',
@@ -87,9 +86,8 @@ const store = {
     year: 2018,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. ',
     tags: ['html','css', 'javaScript'],
-  },
-
-};
+  }
+]
 
 const name=document.querySelector('.nameOfProject');
 const name_desk=document.querySelector('.nameOfProject_desk'); /*Calling desktop project*/ 
@@ -134,7 +132,7 @@ const tags_desk = document.getElementById('tags_desk');
 
 
 function changePopup(order) {
-  const detail = store[`detail${order}`];
+  const detail = store[order];
   name.textContent = detail.name;
 
   name_desk.textContent=detail.name_desk;
