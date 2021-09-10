@@ -398,6 +398,110 @@ label {
   box-sizing: content-box;
 }
 
+.modal_mob {
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.model_content {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 90%;
+  height: 92%;
+  padding: 0.5rem;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.pop_upHeader {
+  display: flex;
+  margin-top: -17px;
+  gap: 12rem;
+}
+
+.pop-close {
+  margin-top: 30px;
+  padding-right: 16px;
+}
+
+.closebtn {
+  padding-top: 30px;
+}
+
+#pop_Text {
+  font-size: 13px;
+}
+
+.Popcontent {
+  padding: 1rem;
+}
+
+.popUpExp {
+  display: flex;
+  gap: 20px;
+}
+
+#img {
+  padding-left: 38px;
+  padding-right: 6px;
+  width: 200px;
+}
+
+.tag_list {
+  margin-left: 10px;
+}
+
+.pop-line {
+  margin-top: 16px;
+  margin-left: 45px;
+  width: 95%;
+}
+
+.popBtns {
+  display: flex;
+  gap: 99px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.live {
+  margin-left: 9px;
+}
+
+.popBtn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #6a91f5;
+  color: #4e5cd4;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.popBtn2 {
+  width: 130px;
+  margin-right: 20px;
+}
+
+.modal_mob_desk {
+  display: none;
+}
+
+.popUpInfo {
+  margin: -17px;
+}
+
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;
@@ -661,5 +765,87 @@ label {
 
   .desktop_exp {
     display: block;
+  }
+
+  .modal_mob_desk {
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .model_content_desk {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 95%;
+    height: 90%;
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 16px;
+    align-items: center;
+    background-color: white;
+  }
+
+  .pop_upHeader_desk {
+    margin-top: -26px;
+    display: flex;
+    gap: 80%;
+    width: 100%;
+  }
+
+  .text-exp {
+    display: flex;
+    width: fit-content;
+  }
+
+  .lorem {
+    width: 60%;
+  }
+
+  .experienceD {
+    margin-top: -40px;
+    margin-left: -1015px;
+  }
+
+  .exp_desk_pop {
+    padding-left: -28px;
+  }
+
+  .pop-close_desk {
+    margin-top: 30px;
+    padding-right: 16px;
+  }
+
+  .right_side {
+    margin-top: 23px;
+    margin-left: 23px;
+  }
+
+  .pop_Image_desk {
+    width: 100%;
+    height: 60%;
+    margin-top: -7px;
+  }
+
+  #imgDesk {
+    height: 100%;
+    width: 100%;
+  }
+
+  .popBtns_desk {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 7px;
   }
 }
