@@ -40,6 +40,10 @@ const store = [{
     yearDesk: 2015,
     description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tags: ['html', 'css', 'javaScript'],
+    links: [
+      'https://bonkegcobo.github.io/Portfolio/',
+      'https://github.com/BonkeGcobo/Portfolio',
+    ],
 
   },
 
@@ -56,6 +60,10 @@ const store = [{
     yearDesk: 2015,
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
     tags: ['html', 'css', 'javaScript'],
+    links: [
+      'https://bonkegcobo.github.io/Portfolio/',
+      'https://github.com/BonkeGcobo/Portfolio',
+    ],
   },
 
     {detail3: 'key3', 
@@ -71,6 +79,10 @@ const store = [{
     yearDesk: 2015,
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
     tags: ['html','css', 'javaScript'],
+    links: [
+      'https://bonkegcobo.github.io/Portfolio/',
+      'https://github.com/BonkeGcobo/Portfolio',
+    ],
   },
 
     {detail4: 'key4', 
@@ -86,6 +98,10 @@ const store = [{
     year: 2018,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. ',
     tags: ['html','css', 'javaScript'],
+    links: [
+      'https://bonkegcobo.github.io/Portfolio/',
+      'https://github.com/BonkeGcobo/Portfolio',
+    ],
   }
 ]
 
