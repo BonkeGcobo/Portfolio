@@ -43,7 +43,7 @@ const store = [{
     links: [
       'https://bonkegcobo.github.io/Portfolio/',
       'https://github.com/BonkeGcobo/Portfolio',
-    ],
+    ]
 
   },
 
@@ -63,7 +63,7 @@ const store = [{
     links: [
       'https://bonkegcobo.github.io/Portfolio/',
       'https://github.com/BonkeGcobo/Portfolio',
-    ],
+    ]
   },
 
     {detail3: 'key3', 
@@ -82,7 +82,7 @@ const store = [{
     links: [
       'https://bonkegcobo.github.io/Portfolio/',
       'https://github.com/BonkeGcobo/Portfolio',
-    ],
+    ]
   },
 
     {detail4: 'key4', 
@@ -101,7 +101,7 @@ const store = [{
     links: [
       'https://bonkegcobo.github.io/Portfolio/',
       'https://github.com/BonkeGcobo/Portfolio',
-    ],
+    ]
   }
 ]
 
@@ -122,6 +122,12 @@ const imageDesk=document.getElementById('imgDesk');
 
 const text=document.getElementById('pop_Text');
 const Desktext=document.getElementById('pop_Text_desk');
+
+const link_1=document.getElementById('link_1');
+const link_2=document.getElementById('link_2');
+
+const link_1_desk=document.getElementById('link_1_desk');
+const link_2_desk=document.getElementById('link_2_desk');
 
 const btn1 = document.querySelector('.btnProj1');
 const btn2 = document.querySelector('.btnProj2');
@@ -166,6 +172,12 @@ function changePopup(order) {
 
   year.innerHTML = detail.year;
   year_Desk.innerHTML = detail.yearDesk;
+
+  link_1.action=detail.links[0];
+  link_2.action=detail.links[1];
+
+  link_1_desk.action=detail.links[0];
+  link_2_desk.action=detail.links[1];
 
   image.src=detail.img;
   imageDesk.src=detail.img_desk;
