@@ -6,8 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/myStyle.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio</title>
+  <title>Bonke's Portfolio</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
@@ -25,7 +24,7 @@
       </div>
 
       <nav class="hamburger-btn">
-        <img class="hamburger" src="images/ham.svg" alt="menu">
+        <img id="hamburger" src="images/ham.svg" alt="menu">
         <ul class="nav-menu">
           <li>Portfolio</li>
           <li>About</li>
@@ -33,7 +32,7 @@
         </ul>
       </nav>
     </header>
-
+  
     <section class="headline">
       <div class="intro-message">
         <h1 class="intro_1">
@@ -68,23 +67,23 @@
     </section>
   </div>
 
-  <section class="Works">
+  <section class="Works" id="portfolio">
     <div class="card proj_1">
 
       <div class="card_Desktop">
         <img src="images/card_1_image_desk.svg" alt="Image for project 1 small screen"/>
       </div>
       
-      <div class="img proj_#1">
+      <div class="img proj_#1" id="img_1">
         <img src="images/Project_1.svg" alt="image for first Project" />
       </div>
       
       <div class="card_info">
-        <div class="card_title">
+        <div class="card_title" id="title_1">
           <h1>Tonic</h1>
         </div>
 
-        <div class="exp">
+        <div class="exp" id="exp_1">
           <ul class="desk_var sub_tabs">
             <li class="canop">Canopy</li>
             <li class="mini">Back End Dev</li>
@@ -97,7 +96,7 @@
             no accounts or sign-ups required.</p>
         </div>
 
-        <div class="proj_lan">
+        <div class="proj_lan" id="lan_1">
           <ul class="myLans">
             <li><a class="lan_tag" href="#">html</a></li>
             <li><a class="lan_tag" href="#">css</a></li>
@@ -106,7 +105,7 @@
         </div>
 
         <div class="pro_button">
-          <button class="proj_button" type="button">
+          <button class="proj_button btnProj1 cproject" type="button">
             See Project
           </button>
         </div>
@@ -114,7 +113,7 @@
       </div>
 
     <div class="card reverse proj_2">
-      <div class="img proj_#2">
+      <div class="img proj_#2" id="img_2">
         <img src="images/Project_2.svg" alt="Image for project 2 small screen"/>
       </div>
 
@@ -123,12 +122,12 @@
       </div>
       
       <div class="card_info">
-        <div class="card_title">
+        <div class="card_title" id="title_2">
           <h1>Multi-Post
             Stories</h1>
         </div>
 
-        <div class="exp">
+        <div class="exp" id="exp_2">
           <ul class="desk_var sub_tabs">
             <li class="canop">Canopy</li>
             <li class="mini">Back End Dev</li>
@@ -141,7 +140,7 @@
             no accounts or sign-ups required.</p>
         </div>
 
-        <div class="proj_lan">
+        <div class="proj_lan" id="lan_2">
           <ul class="myLans">
             <li><a class="lan_tag" href="#">html</a></li>
             <li><a class="lan_tag" href="#">css</a></li>
@@ -157,7 +156,7 @@
         </div>
 
         <div class="pro_button">
-        <button class="proj_button" type="button">
+        <button class="proj_button btnProj2 cproject" type="button">
           See Project
         </button>
         </div>
@@ -222,7 +221,7 @@
         </div>
 
         <div class="pro_button">
-          <button class="proj_button" type="button">
+          <button class="proj_button btnProj3 cproject" type="button">
             See Project
           </button>
         </div>
@@ -286,7 +285,7 @@
         </div>
 
         <div class="pro_button">
-          <button class="proj_button" type="button">
+          <button class="proj_button btnProj4 cproject" type="button">
             See Project
           </button>
         </div>
@@ -297,7 +296,7 @@
 
 
   <section class="about-myself">
-    <div class="About_me">
+    <div class="About_me" id="Aboutme">
       <div class="myself_title">
         <h1 class="abt_myself_title about_one">
          About
@@ -328,7 +327,7 @@
       <li><a href="#"><img src="images/hand_icon.jpg" alt="hand" /></a></li>
        </ul>
        <div class="Get_my_resume">
-        <button class="Resume_btn">
+        <button class="Resume_btn" type="button">
           Get My Resume
         </button>
       </div>
@@ -380,7 +379,7 @@
   </section>
 
   <footer class="contact_container">
-    <div class="contact_form">
+    <div class="contact_form" id="contact">
       <h1 class="contact_form_heading">
         Contact Form
       </h1>
@@ -410,6 +409,133 @@
     </form>
     </div>
   </footer>
+
+  <div class="mob-menu">
+    <div class="close-tag">
+      <img class="cancel_btn" src="images/Icon_cancel.svg" alt="closing button"/>
+    </div>
+    <ul class="mob-items">
+      <li><a class="mob-items1" href="#portfolio">Portfolio</a></li>
+      <li><a class="mob-items1" href="#Aboutme">About</a></li>
+      <li><a class="mob-items1" href="#contact">Contact</a></li>
+    </ul>
+
+  </div>
+  
+  <div class="modal_mob">
+    <div class="model_content">
+      <div class="pop_upHeader">
+        <div class="name" id="name">
+          <h1 class="nameOfProject">
+             
+          </h1>
+        </div>
+        <div class="pop-close">
+          <img class="close" src="images/popCancel.svg" alt="close button">
+        </div>
+      </div>
+
+      <div class="popUpInfo">
+       <div class="experience">
+        <ul class="popUpExp desk_var sub_tabs">
+          <li id="company"></li>
+          <li id="job"></li>
+          <li id="year"></li>
+        </ul>
+      </div>
+
+      <div class="pop_Image">
+        <img src="#" alt="#" id="img">
+      </div>
+
+      <div class="Popcontent">
+        <p id="pop_Text">
+            
+        </p>
+      </div>
+
+      <div id="tags">
+        <div class="tag_list">
+
+        </div>
+      </div>
+
+      <div class="pop-line">
+        <hr class="pop_line">
+      </div>
+
+      <div class="popBtns">
+        <form action="#" id="link_1">
+          <button class="popBtn" type="submit">See live<img class="live" src="images/live_icon.svg" alt="live_icon"/></button>
+        </form>
+        
+        <form action="#" id="link_2">
+          <button class="popBtn popBtn2"  type="submit">See Source<img class="live" src="images/github_btn.svg" alt="live_icon"/></button> 
+        </form>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <div class="modal_mob_desk">
+    <div class="model_content_desk">
+      <div class="pop_upHeader_desk">
+        <div>
+          <h1 class="nameOfProject_desk">
+             
+          </h1>
+        </div>
+        <div class="pop-close_desk">
+          <img class="close_desk" src="images/popCancel.svg" alt="close button">
+        </div>
+      </div>
+
+      <div class="experienceD">
+        <ul class="popUpExp exp_desk_pop">
+          <li id="company_Desk"></li>
+          <li id="job_Desk"></li>
+          <li id="year_Desk"></li>
+        </ul>
+      </div>
+
+      <div class="pop_Image_desk">
+        <img src="#" alt="#" id="imgDesk">
+      </div>
+
+      <div class="text-exp">
+
+       <div class="lorem">
+        <div class="Popcontent_desk">
+          <p id="pop_Text_desk">
+             
+          </p>
+        </div> 
+       </div> 
+       
+      <div class="right_side">
+        <div id="tags_desk">
+          <div class="tag_list_desk">
+  
+          </div>
+        </div>
+  
+  
+        <div class="popBtns_desk">
+          <form action="#" id="link_1_desk">
+            <button class="popBtn popBtn_desk" type="submit">See live<img class="live" src="images/live_icon.svg" alt="for live"/></button>
+          </form>
+
+          <form action="#" id="link_2_desk">
+            <button class="popBtn popBtn2 popBtn_desk" type="submit">See Source<img class="live" src="images/github_btn.svg" alt="github"/></button>    
+          </form>
+        </div>
+        
+      </div>
+      
+    </div>
+   </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
