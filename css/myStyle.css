@@ -502,6 +502,18 @@ label {
   margin: -17px;
 }
 
+#error-messge {
+  background-color: rgb(77, 74, 250);
+  color: #fff;
+  padding: 0.4em 1em;
+  border-radius: 0.2em;
+  margin: 0;
+  display: block;
+  width: fit-content;
+  margin-top: 0.4em;
+  font-family: Poppins, sans-serif;
+}
+
 @media only screen and (min-width: 1000px) {
   #hamburger {
     display: none;

@@ -236,3 +236,19 @@ window.onload = () => {
     changePopup(4);
   };
 };
+
+//  email validity section
+
+const form = document.getElementById('form-input');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const email = form.mail.value;
+  if (email.toLowerCase() !== email) {
+    const errorSpan = form.querySelector('#error-messge');
+    errorSpan.textContent = 'Expected Email in lowercase';
+    errorSpan.style.display = 'block';
+  } else {
+    form.submit();
+  }
+});
