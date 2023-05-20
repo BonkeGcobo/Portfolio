@@ -699,8 +699,9 @@ label {
   }
 
   .langs {
-    display: flex;
-    gap: 12px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
   }
 
   .lan {
