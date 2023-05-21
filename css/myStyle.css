@@ -74,14 +74,14 @@ body {
 .social_media_icons {
   margin-top: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   width: 150px;
+  gap: 1.5rem;
 }
 
 .social_media_icons li {
   list-style: none;
-  margin-left: -38px;
 }
 
 .Works {
