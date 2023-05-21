@@ -203,8 +203,19 @@ body {
 }
 
 .langs {
-  margin-right: 50px;
-  margin-left: -30px;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+  visibility: visible;
+  width: 65%;
+}
+
+.hide_langs {
+  max-height: 0;
+  margin-right: 0;
+  margin-left: 0;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .sec_header {
@@ -352,6 +363,8 @@ label {
 .mob_items li {
   margin: 1rem;
 }
+
+
 
 .mob-items li a {
   text-decoration: none;
@@ -511,6 +524,23 @@ label {
   width: fit-content;
   margin-top: 0.4em;
   font-family: Poppins, sans-serif;
+}
+
+.lan_header, .frame_header, .skill_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrow {
+  transition: transform 0.3s ease;
+}
+
+#arr_button {
+ border: none;
+ background-color: #fff; 
+}
+.rotated {
+  transform: rotate(-90deg);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -700,14 +730,14 @@ label {
 
   .langs {
     display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+    grid-template-columns: repeat(3,1fr);
   }
 
   .lan {
     display: block;
-    width: 122px;
-    height: 120px;
+    width: 30%;
+    height: 30%;
   }
 
   .the_lan {

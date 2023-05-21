@@ -133,6 +133,22 @@ window.onload = () => {
   const btn2 = document.querySelector('.btnProj2');
   const btn3 = document.querySelector('.btnProj3');
   const btn4 = document.querySelector('.btnProj4');
+  
+  const button_languages = document.querySelector('[data-arrow-button]')
+  const arrow = document.querySelector('[data-button-lang]')
+  const langus= document.querySelector(".langs")
+  button_languages.addEventListener("click", ()=>{
+    arrow.classList.toggle('rotated')
+    langus.classList.toggle('hide_langs')
+  })
+
+  const frame_btn = document.querySelector('[data-frame-button]')
+  const arrowBtn = document.querySelector('[data-frame-button]')
+  const hide_frames = document.querySelector('.frame_works')
+  frame_btn.addEventListener('click',()=>{
+    arrowBtn.classList.toggle('rotated')
+    hide_frames.classList.toggle('hide_langs')
+  })
 
   let modalMob;
 
@@ -236,6 +252,10 @@ window.onload = () => {
     changePopup(4);
   };
 };
+
+// Event Handler for the languges
+
+
 
 //  email validity section
 

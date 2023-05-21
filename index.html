@@ -339,7 +339,9 @@
       <li class="skill_section lang_section">
         <div class="skill_header lan_header">
           <h1 class="sec_header Pro_lang">Languages</h1>
-          <img src="images/down_arrow.svg" alt="down-arrow" />
+          <button data-arrow-button id="arr_button">
+            <img src="images/down_arrow.svg" alt="down-arrow" data-button-lang id="arrow"/>
+          </button>
         </div>
 
         <ul class="langs">
@@ -365,21 +367,25 @@
 
       <li class="skill_section frameWork">
         <div class="skill_header frame_header">
-          <h1 class="sec_header frameWorks">Frameworks</h1>
-          <img src="images/icon_right.svg" alt="right" />
+          <h1 class="sec_header frameWorks">Frameworks</h1>    
+          <button data-arrow-button-frame id="arr_button">
+            <img src="images/down_arrow.svg" data-frame-button/>
+          </button>
         </div>
+
+        <ul class="langs frame_works">
+          <li class="lan">
+            <img src="images/rails.svg" alt="contains rails logo">
+             <p class="the_lan">Rails<p>
+          </li>
+
+          <li class="lan">
+            <img src="images/react.svg" alt="contains rails logo">
+             <p class="the_lan">React<p>
+          </li>
+        </ul>
       </li>
 
-      <li class="hori_line">
-        <hr>
-      </li>
-
-      <li class="skill_section my_skills">
-        <div class="skill_header my_skills">
-          <h1 class="sec_header my_skills">Skills</h1>
-          <img src="images/icon_right.svg" alt="right" />
-        </div>
-      </li>
       </ul>
     </div>
   </section>
